@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" id="formulario">
+        
+        <fieldset id="fieldset">
+            <legend>
+                <h2>Formulario</h2>
+            </legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea><br><br>
+
+        </fieldset>
+        <section id="seccion">
+        </section>
+    </form>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
